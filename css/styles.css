@@ -476,14 +476,18 @@ img {
     font-weight: 400;
     font-size: 16px;
 }
-.socmedia-header {
-    display: block;
+.socmedia-header,
+.footer-header {
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+}
+.socmedia-header {
+display: block;
 }
 .social-box-footer {
     display: flex;
